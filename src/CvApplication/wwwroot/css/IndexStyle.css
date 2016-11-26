@@ -1,0 +1,86 @@
+﻿body {
+    background-color: black;
+}
+
+.page-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.top-banner {
+     background-image: url('../images/backgrounds/dark.jpg');
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 40px;
+}
+
+.container {
+    margin-top: 50px;
+    border: 1px solid white;
+     width: 800px;
+    color: white;
+}
+
+#row2, #row3{
+    height: 200px;
+    width: 800px;
+}
+
+#colgreen {
+    background-color: #11A355;
+    height: 200px;
+}
+
+#colred {
+        background-color: #ff4d4d;
+       height: 200px;
+}
+#colblue {
+    background-color: lightskyblue;
+       height: 200px;
+}
+#colorange {
+    background-color: orange;
+    height: 200px;
+}
+
+#colyellow {
+    background-color:  #ffff80;
+    height: 200px;
+}
+
+#colpink {
+    background-color: Pink;
+    height: 200px;
+}
+#colpic {
+    background-image: url('../images/profiles/profilmaria.png');
+    height: 400px;
+}
+
+#timer {
+    border: 1px solid black;
+    height: 200px;
+    margin: 0 auto;
+    max-height: 50%;
+    margin-top: 30%;
+}
+
+.days,.hours,.minutes,.seconds {
+   
+    background-color: grey;
+    border: 1px solid black;
+    font-size: 30px;
+    margin-left: 3.5px;
+  
+}
+
+.img-responsive {
+    max-height: 50%;
+    margin: 0 auto;
+    margin-top: 30%;
+    max-width: 100%
+}
