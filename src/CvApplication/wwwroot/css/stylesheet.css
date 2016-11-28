@@ -6,10 +6,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    width: 800px;
 }
 
 .top-banner {
-     background-image: url('../images/backgrounds/dark.jpg');
+    background-image: url('../images/backgrounds/dark.jpg');
+    margin-top: 50px;
     color: white;
     height: 50px;
     text-align: center;
@@ -17,16 +19,21 @@
     font-size: 40px;
 }
 
-.container {
+.table-container {
     margin-top: 50px;
-    border: 1px solid white;
-     width: 800px;
-    color: white;
 }
 
-#row2, #row3{
+.container {
+    margin-top: 50px;
+    width: 600px;
+    height: 700px;
+    background-color: whitesmoke;
+}
+
+#row1, #row2{
     height: 200px;
     width: 800px;
+    margin: 0 auto;
 }
 
 #colgreen {
@@ -83,4 +90,32 @@
     margin: 0 auto;
     margin-top: 30%;
     max-width: 100%
+}
+
+#row1-1 {
+    width: 600px;
+    height: 150px;
+}
+#col1 {
+    background-color: lightgrey;
+    height: 120px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+ 
+}
+
+#address {
+    font-size: 12px;
+    margin-top: 18px;
+    color: darkgrey;
+}
+
+#letter {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    background-color: lightgrey;
+     font-size: 12px;
 }
