@@ -17,18 +17,18 @@
 }
 
 #greenBox {
-    background-color: green;
+    background-color:  #11A355;
     height: 200px;
 }
 
 #redBox {
      height: 200px;
-    background-color: red;
+    background-color: #ff4d4d;
 }
 
 #yellowBox {
    height: 200px;
-    background-color: yellow;
+    background-color: #ffff80;
 }
 
 #orangeBox {
@@ -38,12 +38,35 @@
 
 #blueBox {
      height: 200px;
-    background-color: blue;
+    background-color: lightskyblue;
 }
 
 #pinkBox {
      height: 200px;
     background-color: pink;
+}
+.img-responsive {
+    max-height: 50%;
+    margin: 0 auto;
+    margin-top: 30%;
+    max-width: 100%
+}
+
+#timer {
+    border: 1px solid black;
+    height: 200px;
+    margin: 0 auto;
+    max-height: 50%;
+    margin-top: 30%;
+}
+
+.days,.hours,.minutes,.seconds {
+   
+    background-color: grey;
+    border: 1px solid black;
+    font-size: 30px;
+    margin-left: 3.5px;
+  
 }
 
 

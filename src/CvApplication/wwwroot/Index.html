@@ -1,58 +1,62 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-
     <meta charset="utf-8">
     <title>Maria Källström</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="scripts/Timer.js"></script>
-    <link href="css/stylesheet.css" rel="stylesheet" />
+    <link href="css/MyStyleSheet.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="top-banner">
-        <p>Maria Källström Developer.NET</p>
-    </div>
-<div class="page-container">
-    <div class="table-container">
-        <div class="row" id="row1">
-            <div class="col_span_1_of_6"></div>
-            <div class="col_span_1_of_6" id="colpic"></div>
-            <div class="col_span_1_of_6" id="colgreen">
-                <a href="Pages/MyCvPage.html"> <img src="images/icons/cvicon2.gif" class="img-responsive"/></a>
-            </div>
-            <div class="col_span_1_of_6" id="colred">
-                <a href="https://github.com/mariakallstrom"><img src="images/icons/github.gif" class="img-responsive"/></a>
-            </div>
-            <div class="col_span_1_of_6" id="colyellow">
-                <a href="https://www.linkedin.com/in/maria-kallstrom"><img src="images/icons/linkedIn.png" class="img-responsive"/></a>
-            </div>
-            <div class="col_span_1_of_6"></div>
+
+<div class="header">
+    <h1>Maria Källström, Developer.Net</h1>
+</div>
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-4 nopadding">
+            <img src="images/profiles/profilmaria.png" id="img" alt="Marias profilepicture"/>
         </div>
-        <div class="row" id="row2">
-            <div class="col_span_1_of_6"></div>
-            <div class="col_span_1_of_6"></div>
-            <div class="col_span_1_of_6" id="colblue">
-                <a href="Pages/MyLetterPage.html"><img src="images/icons/letter.gif" class="img-responsive"/></a>
-            </div>
-            <div class="col_span_1_of_6" id="colorange">
-                <a href="mailto: maria@siso.se"><img src="images/icons/email.gif" class="img-responsive"/></a>
-            </div>
-            <div class="col_span_1_of_6" id="colpink">
-                <div id="timer">
-                    <p>Days Hours Min Sec</p>
-                    <span class="days"></span>
-                    <span class="hours"></span>
-                    <span class="minutes"></span>
-                    <span class="seconds"></span>
+        <div class="col-sm-6 nopadding">
+            <div class="row">
+                <div class="col-sm-4 nopadding" id="greenBox">
+                    <img class="img-responsive" src="images/icons/cvicon2.gif"/>
                 </div>
-                <div class="col_span_1_of_6"></div>
+                <div class="col-sm-4 nopadding" id="pinkBox">
+                    <img class="img-responsive"src="images/icons/github.gif"/>
+                </div>
+                <div class="col-sm-4 nopadding" id="blueBox">
+                    <img class="img-responsive"src="images/icons/linkedIn.png"/>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4 nopadding" id="yellowBox">
+                    <img class="img-responsive"src="images/icons/letter.gif"/>
+                </div>
+                <div class="col-sm-4 nopadding" id="orangeBox">
+                    <img class="img-responsive"src="images/icons/email.gif"/>
+                </div>
+                <div class="col-sm-4 nopadding" id="redBox">
+                    <div id="timer">
+                        <p>Days Hours Min Sec</p>
+                        <span class="days"></span>
+                        <span class="hours"></span>
+                        <span class="minutes"></span>
+                        <span class="seconds"></span>
+                    </div>
+                </div>
+
             </div>
         </div>
+        <div class="col-sm-2"></div>
     </div>
 </div>
-<script type="text/javascript">window.onload = initializeClock('timer', '2017-02-22');</script>
+    <script src="scripts/Timer.js"></script>
+    <script type="text/javascript">window.onload = initializeClock('timer', '2017-02-22');</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/myJavaScript.js"></script>
 </body>
 </html>
