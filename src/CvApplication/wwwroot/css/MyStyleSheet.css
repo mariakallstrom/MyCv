@@ -1,0 +1,55 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.header {
+    padding: 15px;
+    text-align: center;
+}
+#img {
+     display: inline-block;
+     float: right;
+}
+
+#greenBox {
+    background-color: green;
+    height: 200px;
+}
+
+#redBox {
+     height: 200px;
+    background-color: red;
+}
+
+#yellowBox {
+   height: 200px;
+    background-color: yellow;
+}
+
+#orangeBox {
+   height: 200px;
+    background-color: orange;
+}
+
+#blueBox {
+     height: 200px;
+    background-color: blue;
+}
+
+#pinkBox {
+     height: 200px;
+    background-color: pink;
+}
+
+
+@media screen and (max-width: 480px) {
+  #img {
+        float: none;
+        width: auto;
+    }
+}

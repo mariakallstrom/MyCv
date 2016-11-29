@@ -1,12 +1,13 @@
 ﻿body {
-    background-color: black;
+    background-color: #B0B4B7;
 }
+
 
 .page-container {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    width: 800px;
+
 }
 
 .top-banner {
@@ -25,52 +26,35 @@
 
 .container {
     margin-top: 50px;
-    width: 600px;
-    height: 700px;
     background-color: whitesmoke;
 }
-
-#row1, #row2{
-    height: 200px;
-    width: 800px;
-    margin: 0 auto;
-}
-
 #colgreen {
     background-color: #11A355;
-    height: 200px;
 }
 
 #colred {
         background-color: #ff4d4d;
-       height: 200px;
 }
 #colblue {
     background-color: lightskyblue;
-       height: 200px;
 }
 #colorange {
     background-color: orange;
-    height: 200px;
 }
 
 #colyellow {
     background-color:  #ffff80;
-    height: 200px;
 }
 
 #colpink {
     background-color: Pink;
-    height: 200px;
 }
 #colpic {
     background-image: url('../images/profiles/profilmaria.png');
-    height: 400px;
 }
 
 #timer {
     border: 1px solid black;
-    height: 200px;
     margin: 0 auto;
     max-height: 50%;
     margin-top: 30%;
@@ -82,7 +66,6 @@
     border: 1px solid black;
     font-size: 30px;
     margin-left: 3.5px;
-  
 }
 
 .img-responsive {
@@ -92,18 +75,11 @@
     max-width: 100%
 }
 
-#row1-1 {
-    width: 600px;
-    height: 150px;
-}
 #col1 {
     background-color: lightgrey;
-    height: 120px;
-    width: 200px;
     margin-left: 50px;
     margin-right: 20px;
     margin-bottom: 20px;
- 
 }
 
 #address {
@@ -118,4 +94,54 @@
     height: 500px;
     background-color: lightgrey;
      font-size: 12px;
+}
+/*  GRID OF SIX   ============================================================================= */
+
+
+.span_6_of_6 {
+	width: 100%;
+}
+
+.span_5_of_6 {
+  	width: 83.06%;
+}
+
+.span_4_of_6 {
+  	width: 66.13%;
+}
+
+.span_3_of_6 {
+  	width: 49.2%;
+}
+
+.span_2_of_6 {
+  	width: 32.26%;
+}
+
+.span_1_of_6 {
+  	width: 15.33%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_6_of_6 {
+		width: 100%; 
+	}
+	.span_5_of_6 {
+		width: 100%; 
+	}
+	.span_4_of_6 {
+		width: 100%; 
+	}
+	.span_3_of_6 {
+		width: 100%; 
+	}
+	.span_2_of_6 {
+		width: 100%; 
+	}
+	.span_1_of_6 {
+		width: 100%; 
+	}
 }
