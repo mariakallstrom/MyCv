@@ -1,6 +1,125 @@
 ﻿* {
     box-sizing: border-box;
 }
+
+#btnGreen{
+    background-color: #33cc33;
+       border-radius: 5px;
+       color: black;
+}
+
+#yh {
+    background-color: #e6ffe6;
+       border-radius: 5px;
+       color: black;
+}
+
+#btnRed {
+    background-color: #ff5050;
+       border-radius: 5px;
+       color: black;
+}
+
+#gymnasium {
+      background-color: #ffb3b3;
+       border-radius: 5px;
+       color: black;
+}
+
+#btnBlue{
+     background-color: #66ccff;
+       border-radius: 5px;
+       color: black;
+}
+
+#support {
+     background-color: lightblue;
+       border-radius: 5px;
+       color: black;
+}
+
+
+#btnYellow {
+    background-color: #FFE97F;
+       border-radius: 5px;
+       color: black;
+}
+
+#masterdata {
+      background-color: #ffffe6;
+       border-radius: 5px;
+       color: black;
+}
+
+#btnOrange{
+    background-color: #FFB575;
+       border-radius: 5px;
+       color: black;
+}
+
+#terminal {
+    background-color: #ffe0b3;
+       border-radius: 5px;
+       color: black;
+}
+
+#btnPink {
+    background-color: #ff80c0;
+       border-radius: 5px;
+       color: black;
+}
+
+#lang {
+    background-color: #ffe6f2;
+       border-radius: 5px;
+       color: black;     
+}
+
+
+#btnGrey{
+    background-color: #B5B1B1;
+       border-radius: 5px;
+       color: black;
+}
+
+#other {
+    background-color: #f2f2f2;
+       border-radius: 5px;
+       color: black;
+}
+
+
+
+#btnpurple{
+    background-color: #D993FF;
+       border-radius: 5px;
+       color: black;
+}
+#competences {
+
+    background-color: #f7e6ff;
+       border-radius: 5px;
+       color: black;
+}
+
+
+.btn-info:hover {
+    color: black;
+    width: 100%;
+    border-color: grey;
+    padding: 5px; 
+     border: 1px;
+}
+
+.btn-info
+{
+    color: black;
+    width: 100%;
+    border-color: grey;
+    border: 1px;
+    padding: 5px;
+    
+}
 body {
     background: rgb(63, 63, 63);
     background: linear-gradient(325deg, rgb(63, 63, 63) 14%, rgb(198, 198, 198) 95%);
@@ -12,21 +131,6 @@ body {
      box-shadow: 5px 5px 5px;
 }
 
-.top-banner {
-    margin: 0 auto;
-    margin-bottom:  10px;
-    width: 57%;
-    height: 100px;
-    box-shadow: 5px 5px 5px;
-    background-color: #969698;
-}
-
-h1 {
-    padding-top: 30px; 
-     text-align: center;
-     text-shadow: 0px 2px 3px #666;
-     color: black;
-}
 #col1, #col2, #col3, #col4 {
         background: rgb(232, 228, 222);
     background: linear-gradient(180deg, rgb(232, 228, 222) 14%, rgb(221, 221, 221) 92%);
@@ -57,11 +161,7 @@ h1 {
     padding: 15px;
     text-align: center;
 }
-#img {
-     display: inline-block;
-     float: right;
-      box-shadow: 5px 5px 5px;
-}
+
 
 #greenBox {
     background-color:  #11A355;
@@ -99,35 +199,34 @@ h1 {
     max-width: 100%
 }
 
+
 #timer {
-    border: 1px solid black;
+    display: block;
     height: 200px;
     margin: 0 auto;
     max-height: 50%;
-    margin-top: 30%;
+    margin-top: 2%;
+    color: white;
+}
+
+#lia {
+    margin-left: 3.5px;
+    color: white;
+    
 }
 
 .days,.hours,.minutes,.seconds {
-   
-    background-color: grey;
-    border: 1px solid black;
     font-size: 30px;
     margin-left: 3.5px;
+    color: white;
+    padding: 5%;
   
 }
-.btn-info:hover {
-    color: black;
-    background-color: white;
-    border-color: grey;
+
+.btn:active:focus, .btn:focus {
+    outline: 0;
 }
 
-
-.btn-info {
-     background-color: #e7e7e7; color: black;
-     width: 100%;
-    border: grey;
-     
-}
 .tab-content {
     width: 50%;
     margin: 0 auto;
@@ -142,4 +241,26 @@ a {
         float: none;
         width: auto;
     }
+}
+@media screen and (min-width: 500px) {
+    .top-banner {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 57%;
+        height: 100px;
+        box-shadow: 5px 5px 5px;
+        background-color: #969698;
+    }
+    #img {
+     display: inline-block;
+     float: right;
+      box-shadow: 5px 5px 5px;
+}
+    
+h1 {
+    padding-top: 30px; 
+     text-align: center;
+     text-shadow: 0px 2px 3px #666;
+     color: black;
+}
 }
