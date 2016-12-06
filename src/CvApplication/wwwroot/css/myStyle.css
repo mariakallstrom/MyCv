@@ -263,10 +263,8 @@ a {
     }
 
     #img {
-
         max-height: 400px;
         float: right;
-        background-color: black;
         box-shadow: 5px 5px 5px;
         padding: 0px;
     }
